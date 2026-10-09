@@ -1,0 +1,38 @@
+/* Style all paragraphs */
+p {
+    color: darkblue;
+    font-size: 18px;
+}
+
+/* Style all level two headers */
+h2 {
+    color: darkmagenta;
+    font-size: 24px;
+}
+
+/* Style table borders */
+table, th, td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: mediumslateblue;
+    border-collapse: collapse;
+}
+
+/* Style career paragraph */
+p#career {
+    background-color: #E6F2FF;
+    padding: 10px;
+}
+
+/* Style the main heading */
+.heading {
+    color: darkgreen;
+    text-align: center;
+}
+
+
+/* Style Smith School logo */
+img.logo {
+    width: 278px;
+    height: 75px;
+}
