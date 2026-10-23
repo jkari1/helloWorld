@@ -7,17 +7,9 @@
 
 {% block page_content %}
 
-    {% if request.args.get('subject') and request.args.get('course_number') %}
-
-        <p>
-            You entered your favorite course as:
-            {{ request.args.get('subject') }}{{ request.args.get('course_number') }}
-        </p>
-
-    {% else %}
-
-        <p>Please enter a subject and course number in the URL.</p>
-
-    {% endif %}
+    <p>
+        You entered your favorite course as:
+        {{ request.args.get('subject') }}{{ request.args.get('course_number') }}
+    </p>
 
 {% endblock %}
